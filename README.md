@@ -12,14 +12,14 @@ To install this project, you need to have Golang installed in your machine. You 
 ## Usage
 To begin testing the server and the client in your localhost is very simple. First, you need to run the server. To do so, open your terminal, change to the project directory and run the following command:
 
-`cd server`
+`cd server`<br>
 `./server`
 
 PS: This is for Linux and Mac users. If you are using Windows, you need to follow Windows similar commands.
 
 After running the server, you need to run the client. To do so, open another terminal, change to the project directory and run the following command:
 
-`cd client`
+`cd client`<br>
 `./client`
 
 PS: This is for Linux and Mac users. If you are using Windows, you need to follow Windows similar commands.
