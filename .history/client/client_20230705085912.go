@@ -13,8 +13,7 @@ func main() {
 
 	// Replace "address:port" with the actual address and port of your gRPC server.
 	conn, err := grpc.Dial("127.0.0.1:50051", grpc.WithTransportCredentials(insecure.NewCredentials()))
-	if err != nil {
-		log.Fatalf("Failed to connect: %v", err)
+	if err != nil {log.Fatalf("Failed to connect: %v", err)
 	}
 	defer conn.Close()
 
