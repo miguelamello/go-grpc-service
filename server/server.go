@@ -2,9 +2,9 @@ package main
 
 import (
 	"context"
-	"fmt"
 	"log"
 	"net"
+	"fmt"
 	"google.golang.org/grpc"
 	pb "go_grpc_service/go_grpc_service"
 )
@@ -17,7 +17,7 @@ func (s *server) SendFeedback(ctx context.Context, req *pb.Request) (*pb.Respons
 	// Handle the received feedback message and return a response
 	message := req.GetMessage()
 	response := &pb.Response{
-		Message: fmt.Sprintf("Received feedback: %s", message),
+		Message: fmt.Sprintf("Client payload: %s", message),
 	}
 	return response, nil
 }
