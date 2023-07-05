@@ -29,7 +29,7 @@ Immediately you should see the server and the client communicating. The client w
 ## Conclusion
 Despite being simple, this project demonstrates the power of Golang and gRPC for building fast and agnostic communication between systems. This project can be used as a base for building more complex gRPC Services. Feel free to use it as you wish. One nice thing about this implementation is that the `client` executable can be run in any machine, as long as it can reach the server machine. This is because the `client` executable is statically linked. This means that the executable contains all the dependencies it needs to run. This is great for building microservices and APIs that can be deployed in any machine without the need to install dependencies. `client` executable can be replicated in any number of machines and they will all work as expected. This is great for scaling purposes. 
 
-Another key feature of Golang gRPC implementation is that you can create any tooling you want and need to solve a problem. Once the gRPC server implementation is done, you can start creating the business logic of your application. You can create a CLI tool, a web application, a mobile application, etc. The possibilities are endless.
+Another key feature of Golang gRPC implementation is that you can create any tooling needed to solve a problem. Once the gRPC server implementation is done, you can start creating the business logic of your application. You can create a CLI tool, a web application, a mobile application, etc. The possibilities are endless.
 
 ## Disclaimer
 
