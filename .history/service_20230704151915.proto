@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package grpc.service;
+
+option go_package = "github.com/your-username/your-package-name/pingpong";
+
+
+service GRPCService {
+  rpc SendFeedback (Request) returns (Response) {}
+}
+
+message Request {
+  string message = 1;
+}
+
+message Response {
+  string message = 1;
+}
