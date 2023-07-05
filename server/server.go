@@ -36,9 +36,10 @@ func main() {
 	pb.RegisterGRPCServiceServer(srv, &server{})
 
 	// Start the server and listen for incoming connections
-	log.Println("Starting gRPC server...")
+	log.Println("gRPC server accepting requests...")
 	if err := srv.Serve(listener); err != nil {
 		log.Fatalf("Failed to serve: %v", err)
 	}
+	
 }
 
