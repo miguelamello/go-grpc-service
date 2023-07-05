@@ -35,5 +35,5 @@ Another key feature of Golang gRPC implementation is that you can create any too
 
 This project is not production ready. It is just a simple implementation of a gRPC Service in Golang. It is not recommended to use this project in production. Despite it is completely functional, it is not optimized for production. It is just a simple implementation for demonstration purposes.
 
-If a production ready gRPC Service is needed, you can contact me at `miguelangelomello@gmail.com` and I can build it for you. I am specialized in Golang, Python, JavaScript, React, React Native, Node.js, Docker, Kubernetes, AWS, Google Cloud, etc. I can build any software you need. Feel free to contact me.
+If a production ready gRPC Service is needed, you can contact me at `miguelangelomello@gmail.com` and I can build it for you. Feel free to contact me.
 
