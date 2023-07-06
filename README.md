@@ -36,7 +36,7 @@ PS: I'm assuming you have a 64bit system, and so you can find the right binary t
 
 PS: If you have a diferent Operational System and/or a different architecture, as a last resort you can run `go run client.go`. This will run the client using the Golang runtime. But you need to have Golang installed in your machine.
 
-Immediately you should see the server and the client communicating. The client will send a request to the server every second and the server will respond with the sum of the numbers received. You can stop the server and the client by pressing `CTRL + C` in the terminal.
+Immediately you should see the server and the client communicating. The client will send a payload to the server every second and the server will respond with the received payload by the client. You can stop the server and the client by pressing `CTRL + C` in the terminal.
 
 ## Conclusion
 Despite being simple, this project demonstrates the power of Golang and gRPC for building fast and agnostic communication between systems. This project can be used as a base for building more complex gRPC Services. Feel free to use it as you wish. One nice thing about this implementation is that the `client` executable can be run in any machine, as long as it can reach the server machine. This is because the `client` executable is statically linked. This means that the executable contains all the dependencies it needs to run. This is great for building microservices and APIs that can be deployed in any machine without the need to install dependencies. `client` executable can be replicated in any number of machines and they will all work as expected. This is great for scaling purposes. 
