@@ -15,14 +15,26 @@ To begin testing the server and the client in your localhost is very simple. Fir
 `cd server`<br>
 `./server`
 
-PS: This is for Linux and Mac users. If you are using Windows, you need to follow Windows similar commands.
+PS: I'm assuming you have a 64bit system, and so you can find the right binary to execute.
+
+- If you are using Linux, you need to run `./server_linux`
+- If you are using Mac, you need to run `./server_mac`
+- If you are using Windows, you need to run `./server_windows.exe`
+
+PS: If you have a diferent Operational System and/or a diffrent architecture, as a last resort you can run `go run server.go`. This will run the server using the Golang runtime. But you need to have Golang installed in your machine.
 
 After running the server, you need to run the client. To do so, open another terminal, change to the project directory and run the following command:
 
 `cd client`<br>
 `./client`
 
-PS: This is for Linux and Mac users. If you are using Windows, you need to follow Windows similar commands.
+PS: I'm assuming you have a 64bit system, and so you can find the right binary to execute.
+
+- If you are using Linux, you need to run `./client_linux`
+- If you are using Mac, you need to run `./client_mac`
+- If you are using Windows, you need to run `./client_windows.exe`
+
+PS: If you have a diferent Operational System and/or a diffrent architecture, as a last resort you can run `go run client.go`. This will run the client using the Golang runtime. But you need to have Golang installed in your machine.
 
 Immediately you should see the server and the client communicating. The client will send a request to the server every second and the server will respond with the sum of the numbers received. You can stop the server and the client by pressing `CTRL + C` in the terminal.
 
