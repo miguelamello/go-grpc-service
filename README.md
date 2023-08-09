@@ -1,4 +1,4 @@
-# GO gRpc Service
+# Golang gRpc Service
 This is a simple gRpc Service for inter systems communication implemented in Golang. The service implements a Server which responds to requests made by a remote Client (system). gRpc makes possible to build fast and agnostic communication between systems, and are great for constant database storage, ingestion and digestion of data, fast inter-systems communication, etc.
 
 ## Project Overview
